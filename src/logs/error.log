@@ -1,0 +1,25 @@
+{"level":"fatal","message":"Esto es un error fatal","timestamp":"2025-05-26T21:22:59.832Z"}
+{"level":"error","message":"Esto es un error","timestamp":"2025-05-26T21:22:59.833Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-26T23:57:29.438Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-26T23:57:30.644Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-26T23:57:41.460Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-26T23:58:07.372Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-26T23:59:27.401Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-27T00:01:11.309Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-27T00:01:12.700Z"}
+{"level":"fatal","message":"Test de error: Error: Test de error!","timestamp":"2025-05-27T00:03:44.313Z"}
+{"level":"fatal","message":"Test de error: ReferenceError: TIPOS_ERROR is not defined","timestamp":"2025-05-27T00:06:53.542Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:07:30.592Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:09:23.313Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:09:25.227Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:09:25.968Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:09:53.605Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:11:32.000Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:14:14.698Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:14:16.177Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:14:17.332Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:14:33.712Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:14:35.082Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:15:03.854Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:19:09.810Z"}
+{"level":"fatal","message":"Arrgumentos incorrectos","timestamp":"2025-05-27T00:19:09.811Z"}
