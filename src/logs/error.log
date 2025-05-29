@@ -55,3 +55,5 @@
 {"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:04:55.907Z"}
 {"code":400,"custom":true,"level":"error","name":"User already exists","timestamp":"2025-05-29T01:05:07.495Z"}
 {"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:05:07.495Z"}
+{"code":400,"custom":true,"level":"error","name":"User already exists","timestamp":"2025-05-29T01:05:36.529Z"}
+{"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:05:36.530Z"}
