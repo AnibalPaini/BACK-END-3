@@ -59,3 +59,5 @@
 {"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:05:36.530Z"}
 {"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-29T10:58:55.051Z"}
 {"level":"fatal","message":"Arrgumentos incorrectos","timestamp":"2025-05-29T10:58:55.054Z"}
+{"level":"fatal","message":"Esto es un error fatal","timestamp":"2025-05-29T10:59:17.485Z"}
+{"level":"error","message":"Esto es un error","timestamp":"2025-05-29T10:59:17.488Z"}
