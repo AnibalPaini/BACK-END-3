@@ -40,23 +40,32 @@ const register = async (req, res, next) => {
   }
 };
 
-const login = async (req, res) => {
+const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     if (!email || !password)
-      return res
-        .status(400)
-        .send({ status: "error", error: "Incomplete values" });
+      CustomError.generaError(
+        "Incomplete values",
+        "Incomplete values",
+        "Incomplete values",
+        TIPOS_ERROR.ARGUMENTOS_INVALIDOS
+      );
     const user = await usersService.getUserByEmail(email);
     if (!user)
-      return res
-        .status(404)
-        .send({ status: "error", error: "User doesn't exist" });
+      CustomError.generaError(
+        "User doesn't exist",
+        "User doesn't exist",
+        "User doesn't exist",
+        TIPOS_ERROR.NOT_FOUND
+      );
     const isValidPassword = await passwordValidation(user, password);
     if (!isValidPassword)
-      return res
-        .status(400)
-        .send({ status: "error", error: "Incorrect password" });
+      CustomError.generaError(
+        "Incorrect password",
+        "Incorrect password",
+        "Incorrect password",
+        TIPOS_ERROR.AUTORIZACION
+      );
     const userDto = UserDTO.getUserTokenFrom(user);
     const token = jwt.sign(userDto, "tokenSecretJWT", { expiresIn: "1h" });
     res
@@ -64,10 +73,7 @@ const login = async (req, res) => {
       .send({ status: "success", message: "Logged in" });
   } catch (error) {
     req.logger.error(error);
-    res.status(500).json({
-      status: "error",
-      message: "Error login",
-    });
+    next(error)
   }
 };
 

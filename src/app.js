@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import { logger, middLogg, errorHandler } from "./utils/index.js";
 import { TIPOS_ERROR } from "./utils/EErrores.js";
-
 import { CustomError } from "./utils/CustomError.js";
 import usersRouter from "./routes/users.router.js";
 import petsRouter from "./routes/pets.router.js";
@@ -11,12 +10,12 @@ import adoptionsRouter from "./routes/adoption.router.js";
 import sessionsRouter from "./routes/sessions.router.js";
 import mockingRouter from "./routes/mocking.router.js";
 
-/* process.loadEnvFile("./src/.env"); */
+process.loadEnvFile("./src/.env");
 const PORT = process.env.PORT || 8080;
 
 const app = express();
 const connection = mongoose.connect(
-  `mongodb+srv://coder:coderpass@ecommerce-cluster0.7rqqj.mongodb.net/Mock?retryWrites=true&w=majority&appName=Ecommerce-Cluster0`
+  process.env.MONGO_URI
 );
 
 app.use(express.json());
