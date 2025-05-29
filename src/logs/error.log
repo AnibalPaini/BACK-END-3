@@ -23,3 +23,35 @@
 {"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:15:03.854Z"}
 {"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T00:19:09.810Z"}
 {"level":"fatal","message":"Arrgumentos incorrectos","timestamp":"2025-05-27T00:19:09.811Z"}
+{"level":"fatal","message":"Test de error: Error ruta /testErrorHandler: Arrgumentos incorrectos","timestamp":"2025-05-27T21:30:59.562Z"}
+{"level":"fatal","message":"Arrgumentos incorrectos","timestamp":"2025-05-27T21:30:59.562Z"}
+{"level":"error","timestamp":"2025-05-29T00:53:06.109Z"}
+{"level":"error","timestamp":"2025-05-29T00:53:35.627Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:53:35.628Z"}
+{"level":"error","timestamp":"2025-05-29T00:56:17.548Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:56:17.549Z"}
+{"level":"error","timestamp":"2025-05-29T00:56:37.664Z"}
+{"level":"error","timestamp":"2025-05-29T00:56:41.003Z"}
+{"level":"error","timestamp":"2025-05-29T00:56:42.006Z"}
+{"level":"error","timestamp":"2025-05-29T00:58:07.717Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:58:07.718Z"}
+{"level":"error","timestamp":"2025-05-29T00:58:44.260Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:58:44.261Z"}
+{"level":"error","timestamp":"2025-05-29T00:58:45.196Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:58:45.197Z"}
+{"level":"error","timestamp":"2025-05-29T00:58:45.965Z"}
+{"level":"fatal","timestamp":"2025-05-29T00:58:45.966Z"}
+{"level":"error","timestamp":"2025-05-29T01:01:15.043Z"}
+{"level":"fatal","timestamp":"2025-05-29T01:01:15.044Z"}
+{"level":"error","timestamp":"2025-05-29T01:02:20.668Z"}
+{"level":"fatal","timestamp":"2025-05-29T01:02:20.669Z"}
+{"level":"error","timestamp":"2025-05-29T01:02:21.784Z"}
+{"level":"fatal","timestamp":"2025-05-29T01:02:21.785Z"}
+{"level":"error","timestamp":"2025-05-29T01:02:23.166Z"}
+{"level":"fatal","timestamp":"2025-05-29T01:02:23.166Z"}
+{"level":"error","timestamp":"2025-05-29T01:02:24.130Z"}
+{"level":"fatal","timestamp":"2025-05-29T01:02:24.130Z"}
+{"code":400,"custom":true,"level":"error","name":"User already exists","timestamp":"2025-05-29T01:04:55.906Z"}
+{"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:04:55.907Z"}
+{"code":400,"custom":true,"level":"error","name":"User already exists","timestamp":"2025-05-29T01:05:07.495Z"}
+{"level":"fatal","message":"User already exists","timestamp":"2025-05-29T01:05:07.495Z"}

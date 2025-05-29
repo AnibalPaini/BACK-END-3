@@ -3,7 +3,9 @@ import {
   petsService,
   usersService,
 } from "../services/index.js";
-import { logger } from "../utils/index.js";
+import { CustomError } from "../utils/CustomError.js";
+import {logger} from "../utils/index.js"
+
 
 const getAllAdoptions = async (req, res) => {
   try {

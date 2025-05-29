@@ -1,6 +1,5 @@
 import PetDTO from "../dto/Pet.dto.js";
 import { petsService } from "../services/index.js";
-import { generarPet } from "../mocking/petMock.js";
 import __dirname from "../utils/index.js";
 import { logger } from "../utils/index.js";
 
@@ -133,38 +132,6 @@ const createPetWithImage = async (req, res) => {
   }
 };
 
-const postMocksPets = async (req, res) => {
-  try {
-    let { cantidad = 1, db } = req.query;
-    cantidad = parseInt(cantidad);
-
-    if (isNaN(cantidad) || cantidad <= 0) {
-      return res
-        .status(400)
-        .json({ status: "error", message: "Invalid 'cantidad' value" });
-    }
-
-    let pets = [];
-
-    for (let i = 0; i < cantidad; i++) {
-      pets.push(generarPet());
-    }
-
-    if (db) {
-      pets = await petsService.create(pets);
-    }
-
-    res.status(200).json({ status: "success", pets });
-  } catch (error) {
-    res
-      .status(500)
-      .json({
-        status: "error",
-        message: "Error generating mock pets",
-        detail: error.message,
-      });
-  }
-};
 
 export default {
   getAllPets,
@@ -172,5 +139,4 @@ export default {
   updatePet,
   deletePet,
   createPetWithImage,
-  postMocksPets,
 };

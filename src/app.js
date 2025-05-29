@@ -9,6 +9,7 @@ import usersRouter from "./routes/users.router.js";
 import petsRouter from "./routes/pets.router.js";
 import adoptionsRouter from "./routes/adoption.router.js";
 import sessionsRouter from "./routes/sessions.router.js";
+import mockingRouter from "./routes/mocking.router.js";
 
 /* process.loadEnvFile("./src/.env"); */
 const PORT = process.env.PORT || 8080;
@@ -26,6 +27,7 @@ app.use("/api/users", usersRouter);
 app.use("/api/pets", petsRouter);
 app.use("/api/adoptions", adoptionsRouter);
 app.use("/api/sessions", sessionsRouter);
+app.use("/api/mocks", mockingRouter);
 
 app.use(`/loggerTest`, (req, res) => {
   req.logger.fatal("Esto es un error fatal");
@@ -43,7 +45,7 @@ app.use(`/testErrorHandler`, (req, res, next) => {
   try {
     let { errorTest } = req.query;
     if (!errorTest) {
-      CustomError.generaError(
+      throw CustomError.generaError(
         "Error ruta /testErrorHandler",
         "Arrgumentos incorrectos",
         "Testeo de error",

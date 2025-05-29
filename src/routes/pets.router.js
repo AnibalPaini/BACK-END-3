@@ -10,7 +10,5 @@ router.post('/withimage',uploader.single('image'), petsController.createPetWithI
 router.put('/:pid',petsController.updatePet);
 router.delete('/:pid',petsController.deletePet);
 
-//MOCK
-router.get('/mockingpets',petsController.postMocksPets);
 
 export default router;
