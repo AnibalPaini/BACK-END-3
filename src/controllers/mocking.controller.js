@@ -46,7 +46,7 @@ const postMocksUser = async (req, res) => {
     let users = [];
 
     for (let i = 0; i < cantidad; i++) {
-        users.push(await generarUser());
+      users.push(await generarUser());
     }
 
     if (db) {
@@ -63,7 +63,52 @@ const postMocksUser = async (req, res) => {
   }
 };
 
+const generateData = async (req, res) => {
+  try {
+    let { users, pets } = req.query;
+    users = parseInt(users);
+    pets = parseInt(pets);
+
+    if (isNaN(users) || users <= 0 || isNaN(pets) || pets <= 0) {
+      return res
+        .status(400)
+        .json({ status: "error", message: "Invalid 'users' or 'pets' value" });
+    }
+
+    let generatedUsers = [];
+    let generatedPets = [];
+
+    for (let i = 0; i < users; i++) {
+      generatedUsers.push(await generarUser());
+    }
+
+    for (let i = 0; i < pets; i++) {
+      generatedPets.push(generarPet());
+    }
+
+    if (generatedUsers.length === 0 || generatedPets.length === 0) {
+      return res
+        .status(400)
+        .json({ status: "error", message: "No data generated" });
+    } else {
+      await usersService.create(generatedUsers);
+      await petsService.create(generatedPets);
+    }
+
+    res
+      .status(200)
+      .json({ status: "success", users: generatedUsers, pets: generatedPets });
+  } catch (error) {
+    res.status(500).json({
+      status: "error",
+      message: "Error generating mock pets",
+      detail: error.message,
+    });
+  }
+};
+
 export default {
   postMocksPets,
   postMocksUser,
+  generateData,
 };

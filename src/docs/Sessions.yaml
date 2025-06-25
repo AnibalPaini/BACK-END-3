@@ -1,0 +1,16 @@
+paths:
+  /api/sessions/register:
+    post:
+      summary: Registra un nuevo usuario
+      tags: 
+        - Sessions
+      description: Registra una nueva sesion de usuario en el sistema.
+      responses:
+        "200": 
+          description: Usuario registrado correctamente.
+          content:
+            application/json:
+              schema:
+                type: string
+                items:
+                  type: string

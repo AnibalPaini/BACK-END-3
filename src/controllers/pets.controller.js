@@ -5,16 +5,13 @@ import { CustomError } from "../utils/CustomError.js";
 import { logger } from "../utils/index.js";
 import { TIPOS_ERROR } from "../utils/EErrores.js";
 
-const getAllPets = async (req, res) => {
+const getAllPets = async (req, res, next) => {
   try {
     const pets = await petsService.getAll();
     res.status(200).json({ status: "success", payload: pets });
   } catch (error) {
     req.logger.error(error);
-    res.status(500).json({
-      status: "error",
-      message: "Error fetching pets",
-    });
+    next(error);
   }
 };
 
