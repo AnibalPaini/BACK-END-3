@@ -83,14 +83,14 @@ const current = async (req, res) => {
   if (user) return res.send({ status: "success", payload: user });
 };
 
-const unprotectedLogin = async (req, res) => {
+const unprotectedLogin = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     if (!email || !password)
       return res
         .status(400)
         .send({ status: "error", error: "Incomplete values" });
-    const user = await usersService.getUserByEmail(email);
+    const user = await usersService.getUserByEmailLean(email);
     if (!user)
       return res
         .status(404)
@@ -105,24 +105,20 @@ const unprotectedLogin = async (req, res) => {
       .cookie("unprotectedCookie", token, { maxAge: 3600000 })
       .send({ status: "success", message: "Unprotected Logged in" });
   } catch (error) {
+    console.log(error);
     req.logger.error(error);
-    res.status(500).json({
-      status: "error",
-      message: "Error login unprotectedLogin",
-    });
+    next(error)
   }
 };
-const unprotectedCurrent = async (req, res) => {
+
+const unprotectedCurrent = async (req, res, next) => {
   try {
     const cookie = req.cookies["unprotectedCookie"];
     const user = jwt.verify(cookie, "tokenSecretJWT");
     if (user) return res.send({ status: "success", payload: user });
   } catch (error) {
     req.logger.error(error);
-    res.status(500).json({
-      status: "error",
-      message: "Error login unprotectedCurrent",
-    });
+    next(error)
   }
 };
 

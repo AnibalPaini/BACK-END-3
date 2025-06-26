@@ -58,7 +58,7 @@ paths:
       summary: Login de usuario
       tags: 
         - Sessions
-      description: Logeo de un usuario al sistema.
+      description: Logeo de un usuario al sistema, con JWT y Cookies, en donde se pasan datos no sensibles del usuario, expiración del token y cookie 1h.
       requestBody:
         required: true
         content:
@@ -75,6 +75,11 @@ paths:
               required:
                 - email
                 - password
+        headers:
+          Set-Cookie:
+            description: Cookie con el token JWT generado
+            schema:
+              type: string
       responses:
         "200": 
           description: Usuario logeado correctamente.
@@ -148,73 +153,137 @@ paths:
                         example: 1750909334
         "500":
           description: Error interno del servidor.
+  /api/sessions/unprotectedLogin:
+    get:
+      summary: Login sin protección.
+      tags:
+        - Sessions
+      description: >
+        Realiza el login del usuario sin proteccion. Se pasa el usuario de una consulta a la DB y se retorna un JWT con datos sensibles, expiración del token y cookie 1h.
+      parameters:
+        - name: email
+          in: query
+          required: true
+          schema:
+            type: string
+            format: email
+          example: usuario@example.com
+        - name: password
+          in: query
+          required: true
+          schema:
+            type: string
+            format: password
+          example: mySecurePassword123
+      responses:
+        '200':
+          description: Login exitoso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Unprotected Logged in
+          headers:
+            Set-Cookie:
+              description: Cookie con el token JWT generado
+              schema:
+                type: string
+        '400':
+          description: Email o contraseña incorrectos / faltantes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  error:
+                    type: string
+                    example: Incomplete values
+        '404':
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  error:
+                    type: string
+                    example: User doesn't exist
+        '500':
+          description: Error del servidor
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  message:
+                    type: string
+                    example: Error login unprotectedLogin
+  /api/sessions/unprotectedCurrent:
+    get:
+      summary: Usuario logeado sin protección.
+      tags: 
+        - Sessions
+      description: Perfil de usuario logeado sin protección. De la cookie "unprotectedCookie".
+      responses:
+        "200": 
+          description: Usuario logeado correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: object
+                    properties:
+                      _id:
+                       type: string
+                       example: "64a7d9b7b24b2b001fdfd123"
+                      first_name: 
+                        type: string
+                        example: Juan 
+                      last_name: 
+                        type: string
+                        example: Perez
+                      password:
+                        type: string
+                        example: "hash1234567890"
+                      pets:
+                        type: array
+                        items:
+                          type: string
+                          example: "64a7d9b7b24b2b001fdfd123"
+                      role: 
+                        type: string
+                        example: user
+                      email: 
+                        type: string
+                        example: JuanPerez@gmail.com
+                      iat:
+                        type: int
+                        example: 1750905734 
+                      exp: 
+                        type: int
+                        example: 1750909334
+        "500":
+          description: Error interno del servidor.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-components:
-  schemas:
-    User:
-      type: object
-      properties:
-        _id:
-          type: ObjectId
-          description: Id autogenerado de mongo
-        first_name:
-          type: string
-          description: Nombre del usuario
-        last_name:
-          type: string
-          description: Apellido...    
-        email:
-          type: string
-          description: Correo electronico
-        password: 
-          type: string
-          description: contraseña de acceso  
-      example:
-        _id: ObjectId("60acc54545c8e82e0475200b")
-        first_name: Diego
-        last_name: Polverelli
-        email: diegopolverelli@hotmail.com
-        password: 123
-  requestBodies:
-    createUser:
-      type: object
-      properties:
-        first_name:
-          type: string
-          description: Nombre de usurio
-        last_name:
-          type: string
-          description: Apellido
-        email:
-          type: string
-          description: Correo del usuario
-        password:
-          type: string
-          description: Contraseña del usuario
-      example:
-        first_name: Diego
-        last_name: Polverelli
-        email: diego@hotmail.com
-        password: coder123        

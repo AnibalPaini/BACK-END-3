@@ -1,13 +1,151 @@
 paths:
-  /api/products/:
+  /api/pets/:
     get:
-      summary: Obtiene todos los products
+      summary: Obtiene todos los pets
       tags:
-        - Products
+        - Pets
       responses:
         "200":
-          description: Los productos fueron obtenidos OK desde la DB
+          description: Los pets fueron obtenidos desde la DB
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Pets'
+        "500":
+          description: Error interno del servidor
+    post:
+      summary: Crea un nuevo pet
+      tags:
+        - Pets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Pets'
+      responses:
+        "201":
+          description: Los pets fueron creados en la DB
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Pets'
+        "400":
+          description: Faltan datos requeridos o son incorrectos
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Incomplete values
+        "500":
+          description: Error interno del servidor
+  /api/pets/{pid}:
+    put:
+      summary: Actualiza un pet por ID
+      tags:
+        - Pets
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          schema:
+            type: string
+          description: ID del pet a actualizar
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Pets'
+      responses:
+        "200":
+          description: El pet fue actualizado en la DB
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Pet updated successfully
+        "400":
+          description: Faltan datos requeridos o son incorrectos
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Incomplete values
         "404":
-          description: Not Found
+          description: Pet no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Pet not found
+        "500":
+          description: Error interno del servidor
+    delete:
+      summary: Elimina un pet por ID
+      tags:
+        - Pets
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          schema:
+            type: string
+          description: ID del pet a eliminar
+      responses:
+        "200":
+          description: El pet fue eliminado de la DB
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Pet deleted successfully
+        "404":
+          description: Pet no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: No pet found with ID
         "500":
           description: Error interno del servidor

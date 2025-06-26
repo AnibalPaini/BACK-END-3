@@ -12,6 +12,10 @@ export default class GenericRepository {
         return this.dao.getBy(params);
     }
 
+    getByLean = (params) =>{
+        return this.dao.getBy(params).lean();
+    }
+
     create = (doc) =>{
         return this.dao.save(doc);
     }

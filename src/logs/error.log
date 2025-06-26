@@ -81,3 +81,15 @@
 {"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T02:42:03.303Z"}
 {"code":403,"custom":true,"level":"error","name":"Incorrect password","timestamp":"2025-06-26T02:42:10.040Z"}
 {"level":"fatal","message":"Incorrect password","timestamp":"2025-06-26T02:42:10.041Z"}
+{"level":"error","timestamp":"2025-06-26T11:06:56.891Z"}
+{"level":"error","timestamp":"2025-06-26T11:07:54.803Z"}
+{"level":"error","timestamp":"2025-06-26T11:08:00.273Z"}
+{"level":"error","timestamp":"2025-06-26T11:08:44.468Z"}
+{"level":"error","timestamp":"2025-06-26T11:13:04.560Z"}
+{"level":"error","timestamp":"2025-06-26T11:13:36.391Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-26T12:03:35.505Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-26T12:03:35.506Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 64a7d9b7b24b2b001fdfd456","timestamp":"2025-06-26T12:14:24.474Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-26T12:14:24.476Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 64a7d9b7b24b2b001fdfd456","timestamp":"2025-06-26T12:14:26.350Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-26T12:14:26.351Z"}
