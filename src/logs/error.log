@@ -63,3 +63,17 @@
 {"level":"error","message":"Esto es un error","timestamp":"2025-05-29T10:59:17.488Z"}
 {"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-25T15:50:34.710Z"}
 {"level":"fatal","message":"Incomplete values","timestamp":"2025-06-25T15:50:34.712Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-26T00:16:54.646Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-26T00:16:54.647Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:32:39.814Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:32:39.815Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:32:48.029Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:32:48.029Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:32:53.727Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:32:53.727Z"}
+{"code":403,"custom":true,"level":"error","name":"Incorrect password","timestamp":"2025-06-26T00:33:19.643Z"}
+{"level":"fatal","message":"Incorrect password","timestamp":"2025-06-26T00:33:19.644Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:34:04.899Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:34:04.900Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:35:13.218Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:35:13.219Z"}
