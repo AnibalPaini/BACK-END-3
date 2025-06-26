@@ -77,3 +77,7 @@
 {"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:34:04.900Z"}
 {"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T00:35:13.218Z"}
 {"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T00:35:13.219Z"}
+{"code":404,"custom":true,"level":"error","name":"User doesn't exist","timestamp":"2025-06-26T02:42:03.302Z"}
+{"level":"fatal","message":"User doesn't exist","timestamp":"2025-06-26T02:42:03.303Z"}
+{"code":403,"custom":true,"level":"error","name":"Incorrect password","timestamp":"2025-06-26T02:42:10.040Z"}
+{"level":"fatal","message":"Incorrect password","timestamp":"2025-06-26T02:42:10.041Z"}

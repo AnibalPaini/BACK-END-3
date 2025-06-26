@@ -86,8 +86,8 @@ paths:
                   status:
                     type: string
                     example: success
-                  message:
-                    type: string
+                  payload:
+                    type: object
                     example: "Logged in"
         "403":
           description: Error de autorización.
@@ -109,6 +109,43 @@ paths:
                   error:
                     type: string
                     example: User doesn't exist
+        "500":
+          description: Error interno del servidor.
+  /api/sessions/current:
+    get:
+      summary: Usuario logeado
+      tags: 
+        - Sessions
+      description: Perfil de usuario logeado
+      responses:
+        "200": 
+          description: Usuario logeado correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: object
+                    properties:
+                      name: 
+                        type: string
+                        example: Juan Perez
+                      role: 
+                        type: string
+                        example: user
+                      email: 
+                        type: string
+                        example: JuanPerez@gmail.com
+                      iat:
+                        type: int
+                        example: 1750905734 
+                      exp: 
+                        type: int
+                        example: 1750909334
         "500":
           description: Error interno del servidor.
 
