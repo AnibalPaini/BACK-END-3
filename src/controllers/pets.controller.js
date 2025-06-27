@@ -56,12 +56,14 @@ const updatePet = async (req, res, next) => {
       .status(200)
       .json({ status: "success", message: "Pet updated successfully" });
   } catch (error) {
+    console.log(error);
+    
     req.logger.error(error);
     next(error);
   }
 };
 
-const deletePet = async (req, res) => {
+const deletePet = async (req, res, next) => {
   try {
     const petId = req.params.pid;
     const result = await petsService.delete(petId);

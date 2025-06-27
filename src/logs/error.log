@@ -93,3 +93,115 @@
 {"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-26T12:14:24.476Z"}
 {"code":404,"custom":true,"level":"error","name":"No pet found with ID 64a7d9b7b24b2b001fdfd456","timestamp":"2025-06-26T12:14:26.350Z"}
 {"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-26T12:14:26.351Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:46:03.065Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:46:03.067Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:50:25.071Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:50:25.072Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:51:51.848Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:51:51.849Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:54:14.280Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:54:14.281Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:57:06.586Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:57:06.588Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:57:49.009Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:57:49.011Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T10:58:52.140Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T10:58:52.141Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:10:22.970Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:10:22.971Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:12:26.617Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:12:26.618Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:13:11.578Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:13:11.580Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:13:44.965Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:13:44.966Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:20:28.859Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:20:28.860Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:23:11.380Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:23:11.381Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"000aaa\"","timestamp":"2025-06-27T11:23:11.657Z","value":"000aaa","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"000aaa\"","timestamp":"2025-06-27T11:23:11.658Z","value":"000aaa","valueType":"string"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"1211212\"","timestamp":"2025-06-27T11:27:50.510Z","value":"1211212","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"1211212\"","timestamp":"2025-06-27T11:27:50.511Z","value":"1211212","valueType":"string"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"1211212\"","timestamp":"2025-06-27T11:29:01.025Z","value":"1211212","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"1211212\"","timestamp":"2025-06-27T11:29:01.026Z","value":"1211212","valueType":"string"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:30:58.485Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:30:58.486Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"6834d53168e86677dcbe5f9faaa\"","timestamp":"2025-06-27T11:31:56.902Z","value":"6834d53168e86677dcbe5f9faaa","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"6834d53168e86677dcbe5f9faaa\"","timestamp":"2025-06-27T11:31:56.903Z","value":"6834d53168e86677dcbe5f9faaa","valueType":"string"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"6834d53168e86677dcbe5f9faa\"","timestamp":"2025-06-27T11:32:09.433Z","value":"6834d53168e86677dcbe5f9faa","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"6834d53168e86677dcbe5f9faa\"","timestamp":"2025-06-27T11:32:09.433Z","value":"6834d53168e86677dcbe5f9faa","valueType":"string"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"6834d53168e06677dcbe5f9fa\"","timestamp":"2025-06-27T11:32:16.780Z","value":"6834d53168e06677dcbe5f9fa","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"6834d53168e06677dcbe5f9fa\"","timestamp":"2025-06-27T11:32:16.780Z","value":"6834d53168e06677dcbe5f9fa","valueType":"string"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 6834d53168e86677dcbe5fd1","timestamp":"2025-06-27T11:32:58.762Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T11:32:58.763Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T11:34:25.082Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T11:34:25.083Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e81c10eabc348a6a8d005","timestamp":"2025-06-27T11:34:25.383Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T11:34:25.384Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:19:36.241Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:19:36.242Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8c58924dc738aab58972","timestamp":"2025-06-27T12:19:36.543Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:19:36.544Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8c58924dc738aab58974","timestamp":"2025-06-27T12:19:36.705Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:20:53.951Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:20:53.953Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8ca682acf53c8d77eb7f","timestamp":"2025-06-27T12:20:54.269Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:20:54.270Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8ca682acf53c8d77eb81","timestamp":"2025-06-27T12:20:54.431Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:22:10.047Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:22:10.049Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8cf2d64e33ca5a48cd4d","timestamp":"2025-06-27T12:22:10.357Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:22:10.358Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8cf2d64e33ca5a48cd4f","timestamp":"2025-06-27T12:22:10.517Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:23:39.121Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:23:39.122Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8d4b0ef117a9b402f10c","timestamp":"2025-06-27T12:23:39.451Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:23:39.452Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8d4b0ef117a9b402f10e","timestamp":"2025-06-27T12:23:39.616Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:24:51.189Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:24:51.190Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8d93d31a364bd8ab9a5e","timestamp":"2025-06-27T12:24:51.488Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:24:51.489Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8d93d31a364bd8ab9a60","timestamp":"2025-06-27T12:24:51.671Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:24:51.672Z"}
+{"code":400,"custom":true,"level":"error","name":"Incomplete values","timestamp":"2025-06-27T12:26:47.553Z"}
+{"level":"fatal","message":"Incomplete values","timestamp":"2025-06-27T12:26:47.555Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8e07428496327ad1a5e1","timestamp":"2025-06-27T12:26:47.857Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:26:47.858Z"}
+{"code":404,"custom":true,"level":"error","name":"No pet found with ID 685e8e07428496327ad1a5e3","timestamp":"2025-06-27T12:26:48.011Z"}
+{"level":"fatal","message":"No pet found with ID","timestamp":"2025-06-27T12:26:48.011Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-27T13:29:42.613Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-27T13:29:42.617Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-27T13:30:20.884Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-27T13:30:20.886Z","value":"undefined","valueType":"string"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T13:49:19.804Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T13:49:19.805Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T13:58:51.966Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T13:58:51.968Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:00:10.511Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:00:10.514Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:00:52.514Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:00:52.516Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:00:52.715Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:00:52.716Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:10:18.298Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:10:18.299Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:10:18.499Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:10:18.499Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:14:04.414Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:14:04.415Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:14:04.616Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:14:04.617Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:21:47.914Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:21:47.916Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:21:48.118Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:21:48.119Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:24:02.055Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:02.056Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:24:02.256Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:02.256Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:24:13.492Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:13.492Z"}
+{"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:24:13.652Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:13.653Z"}

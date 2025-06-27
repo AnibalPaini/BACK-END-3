@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "mocha test/routerPets.test.js"
+    "test": "mocha test/routerUsers.test.js"
   },
   "keywords": [],
   "author": "",
