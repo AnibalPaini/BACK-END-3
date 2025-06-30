@@ -11,8 +11,9 @@ import sessionsRouter from "./routes/sessions.router.js";
 import mockingRouter from "./routes/mocking.router.js";
 import swaggerJsDoc from "swagger-jsdoc";
 import swaggerUI from "swagger-ui-express";
+import dotenv from "dotenv";
+dotenv.config({ path: "./src/.env" });
 
-process.loadEnvFile("./src/.env");
 const PORT = process.env.PORT || 8080;
 
 const app = express();

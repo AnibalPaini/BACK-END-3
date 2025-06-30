@@ -1,0 +1,138 @@
+paths:
+  /api/users/:
+    get:
+      summary: Obtiene todos los usuarios en la DB
+      tags:
+        - Users
+      description: Obtiene todos los usuarios registrados en la DB
+      responses:
+        "200":
+          description: Usuarios obtenidos correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/User"
+        "500":
+          description: Error interno del servidor.
+  /api/users/{uid}:
+    get:
+      summary: Obtiene el usuario segun el ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          schema:
+            type: string
+      description: Obtiene el usuario segun el ID que se pase por params.
+      responses:
+        "200":
+          description: Usuarios obtenidos correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: object
+                    $ref: "#/components/schemas/User"
+        "404":
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: User not found
+        "500":
+          description: Error interno del servidor.
+    put:
+      summary: Actualiza un usuario segun el ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      description: Actualiza el usuario segun el ID que se pase por params.
+      responses:
+        "200":
+          description: Usuario actualizado correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: User updated
+        "404":
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: User not found
+        "500":
+          description: Error interno del servidor.
+    delete:
+      summary: Elimina un usuario segun el ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          schema:
+            type: string
+      description: Elimina el usuario segun el ID que se pase por params.
+      responses:
+        "200":
+          description: Usuario eliminado correctamente.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: User deleted
+        "500":
+          description: Error interno del servidor.
+
+
+
+
+
+

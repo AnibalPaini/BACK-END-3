@@ -205,3 +205,105 @@
 {"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:13.492Z"}
 {"code":404,"custom":true,"level":"error","name":"User not found","timestamp":"2025-06-27T14:24:13.652Z"}
 {"level":"fatal","message":"User not found","timestamp":"2025-06-27T14:24:13.653Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:45:39.720Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:45:39.721Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:45:40.086Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:45:40.087Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:45:40.144Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:45:40.145Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:46:16.779Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:46:16.780Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:46:16.856Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:46:16.857Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:46:16.931Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:46:16.932Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:51:36.074Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:51:36.075Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:51:36.148Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:51:36.148Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:51:36.211Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:51:36.212Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:52:33.968Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:52:33.969Z"}
+{"code":404,"custom":true,"level":"fatal","name":"Adoption not found","timestamp":"2025-06-29T21:52:34.038Z"}
+{"level":"fatal","message":"Adoption not found","timestamp":"2025-06-29T21:52:34.038Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:07:05.632Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:07:05.633Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:07:39.733Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:07:39.735Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:08:45.110Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:08:45.111Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:09:18.189Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:09:18.190Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:10:11.987Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:10:11.989Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:10:53.725Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:10:53.726Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:11:25.916Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:11:25.917Z"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:15:19.780Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:15:19.781Z","value":"undefined","valueType":"string"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:15:19.840Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:15:19.841Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:17:02.617Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:17:02.619Z"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:17:42.198Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:17:42.199Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:17:42.262Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:17:42.263Z"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.789Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.790Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.794Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.795Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.799Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:19.799Z","value":"undefined","valueType":"string"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:18:19.961Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:18:19.962Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:18:20.018Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:18:20.019Z"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.615Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.616Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.620Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.620Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.624Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:18:42.624Z","value":"undefined","valueType":"string"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:18:42.808Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:18:42.809Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:18:42.866Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:18:42.867Z"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.493Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.494Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.498Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.498Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.508Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:20:11.508Z","value":"undefined","valueType":"string"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:20:12.006Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:20:12.006Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:20:52.879Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:20:52.880Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:21:20.938Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:21:20.939Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:21:54.321Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:21:54.322Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:22:38.121Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:22:38.122Z"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:22:38.251Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:22:38.252Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:23:40.462Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:23:40.463Z"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:23:40.572Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:23:40.573Z"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.644Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.644Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.647Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.648Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.651Z","value":"undefined","valueType":"string"}
+{"kind":"ObjectId","level":"fatal","path":"_id","reason":{},"stringValue":"\"undefined\"","timestamp":"2025-06-29T23:23:54.651Z","value":"undefined","valueType":"string"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:23:55.148Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:23:55.148Z"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:23:55.253Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:23:55.253Z"}
+{"code":404,"custom":true,"level":"fatal","name":"User not found","timestamp":"2025-06-29T23:24:09.185Z"}
+{"level":"fatal","message":"User not found","timestamp":"2025-06-29T23:24:09.186Z"}
+{"code":400,"custom":true,"level":"fatal","name":"Pet is already adopted","timestamp":"2025-06-29T23:24:09.321Z"}
+{"level":"fatal","message":"Pet is already adopted","timestamp":"2025-06-29T23:24:09.321Z"}
